@@ -3,10 +3,10 @@ const studyRoute = document.querySelector('.my-btn-study');
 
 
 testRoute.addEventListener('click', () =>{
-    window.location.replace('test.html')
+    window.location.replace('/test.html')
 });
 
 studyRoute.addEventListener('click', () =>{
-    window.location.replace('study.html');
+    window.location.replace('/study.html');
 });
 

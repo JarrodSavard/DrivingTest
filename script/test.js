@@ -93,8 +93,9 @@ form.addEventListener("submit", (e) => {
     const qIndex = index + 1;
 
     if (answer === "") {
-      alert(`Question ${qIndex} isn't answered.`);
-      window.history.back();
+      alert(
+        `Question ${qIndex} isn't answered. Please answer the question and resubmit the test.`
+      );
     } else if (answer !== correctAnswers[index]) {
       alert(
         `Question ${qIndex} is incorrect. The correct answer is ${correctAnswers[
