@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="California Written Driving Test (permit) preparation"
+    />
+    <meta
+      name="keywords"
+      content="driving, student driver, california, california driving, permit test, permit study, permit preparation, california permit, california permit test"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar-nav navbar-dark bg-dark navbar-expand-lg p-5 shadow-lg">
+      <a
+        href="index.html"
+        id="my-header"
+        class="navbar-brand text-center font-weight-bold mb-3 display-4"
+        >CA Driving Practice Test</a
+      >
+      <button class="navbar-toggler">
+        <span
+          class="navbar-toggler-icon"
+          data-toggle="collapse"
+          data-target="#navbarMenu"
+        ></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarMenu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="study.html">Study</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="test.html">Test</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Main Body-->
+
+    <div
+      class="container px-5 py-2 bg-light mx-auto p-4 border border-dark shadow-lg m-4"
+    >
+      <h4 class="text-center pb-3">Test Information</h4>
+      <p class="text-center">
+        This test takes on average <b>15-20 minutes</b> and is completely made
+        up of <b>25 multiple choice questions</b>.
+      </p>
+      <p class="text-center">
+        The California Written Driving Test is available to anyone who is over
+        the age of 15 1/2 years old.
+      </p>
+      <h5>Scoring:</h5>
+      <ul>
+        <li>
+          How many questions will be on this practice test?
+          <p>25</p>
+        </li>
+        <li>
+          How many questions can you miss and still pass?
+          <p>5</p>
+        </li>
+        <li>
+          Passing score
+          <p>80%</p>
+        </li>
+      </ul>
+      <p class="text-center">
+        Please take your time when answering the questions. This test isn't
+        timed!
+      </p>
+    </div>
+    <!--Test-->
+    <div class="text-center text-primary display-4 border bg-light">
+      <p class="headline py-2">Practice Test</p>
+    </div>
+
+    <!--Hidden for score-->
+
+    <div
+      class="result-score text-center display-4 text-primary d-none bg-light p-2"
+    >
+      <p>You scored <span>0%</span></p>
+    </div>
+    <div class="result-pass-fail text-center display-4 d-none bg-light p-2">
+      <p>You <span></span> the practice test</p>
+    </div>
+    
+    <!--Questions-->
+    <div class="quiz py-4 bg-primary">
+      <div class="container">
+        <form class="quiz-form text-light">
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              1. A Solid Red traffic light indicates which of the flowing?
+            </p>
+            <div class="form-check my-2 text-white">
+              <input id="1" type="radio" name="q1" value="A" />
+              <label for="1" class="form-check-label">a) To stop.</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="2" type="radio" name="q1" value="B" />
+              <label for="2" class="form-check-label"
+                >b) To proceed with caution.</label
+              >
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="3" type="radio" name="q1" value="C" />
+              <label for="3" class="form-check-label">c) To speed up.</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="4" type="radio" name="q1" value="D" />
+              <label for="4" class="form-check-label">d) None of the above.</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              2. A 8-sided red STOP sign indicates which of the following?
+            </p>
+            <div class="form-check my-2 text-white">
+              <input id="5" type="radio" name="q2" value="A" />
+              <label for="5" class="form-check-label"
+                >a) You must slow down and proceed with caution.</label
+              >
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="6" type="radio" name="q2" value="B" />
+              <label for="6" class="form-check-label"
+                >b) You must make a complete stop.</label
+              >
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="7" type="radio" name="q2" value="C" />
+              <label for="7" class="form-check-label"
+                >c) You don't need to pay attention to this sign. It's not
+                important.</label
+              >
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="8" type="radio" name="q2" value="D" />
+              <label for="8" class="form-check-label"
+                >d) Pedestrians are present.</label
+              >
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              3. Is it legal to pass a vehicle at a stop walk?
+            </p>
+            <div class="form-check my-2 text-white">
+              <input id="9" type="radio" name="q3" value="A" />
+              <label for="9" class="form-check-label">a) Yes</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="10" type="radio" name="q3" value="B" />
+              <label for="10" class="form-check-label">b) No</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              4. When driving within 500 to ____ feet of a school while children
+              are outside and crossing the street, the speed limit is 25 mph
+              unless otherwise posted.
+            </p>
+            <div class="form-check my-2 text-white">
+              <input id="11" type="radio" name="q4" value="A" />
+              <label for="11" class="form-check-label">a) 600</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="12" type="radio" name="q4" value="B" />
+              <label for="12" class="form-check-label">b) 800</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="13" type="radio" name="q4" value="C" />
+              <label for="13" class="form-check-label">c) 1,500</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="14" type="radio" name="q4" value="D" />
+              <label for="14" class="form-check-label">d) 1,000</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              5. The speed limit in any ally is _______.
+            </p>
+            <div class="form-check my-2 text-white">
+              <input id="15" type="radio" name="q5" value="A" />
+              <label for="15" class="form-check-label">a) 20 mph</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="16" type="radio" name="q5" value="B" />
+              <label for="16" class="form-check-label">b) 15 mph</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="17" type="radio" name="q5" value="C" />
+              <label for="17" class="form-check-label">c) 5 mph</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="18" type="radio" name="q5" value="D" />
+              <label for="18" class="form-check-label">d) 10 mph</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              6. The speed limit in a business or residential area is 25 mph
+              unless otherwise posted?
+            </p>
+            <div class="form-check my-2 text-white">
+              <input id="19" type="radio" name="q6" value="A" />
+              <label for="19" class="form-check-label">a) True</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="20" type="radio" name="q6" value="B" />
+              <label for="20" class="form-check-label">b) False</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              7. A flashing yellow traffic signal indicates you to _______.
+            </p>
+            <div class="form-check my-2 text-white">
+              <input id="21" type="radio" name="q7" value="A" />
+              <label for="21" class="form-check-label">a) Proceed with caution.</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="22" type="radio" name="q7" value="B" />
+              <label for="22" class="form-check-label">b) Stop if you do so safely.</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="23" type="radio" name="q7" value="C" />
+              <label for="23" class="form-check-label">c) Stop no matter what.</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="24" type="radio" name="q7" value="D" />
+              <label for="24" class="form-check-label">d) Continue driving.</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              8. To avoid tailgating which rule do you use?
+            </p>
+            <div class="form-check my-2 text-white">
+              <input id="25" type="radio" name="q8" value="A" />
+              <label for="25" class="form-check-label">a) The 5 second rule.</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="26" type="radio" name="q8" value="B" />
+              <label for="26" class="form-check-label">b) The 6 second rule.</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="27" type="radio" name="q8" value="C" />
+              <label for="27" class="form-check-label">c) The 8 second rule.</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="28" type="radio" name="q8" value="D" />
+              <label for="28" class="form-check-label">d) The 3 second rule.</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              9. You're not allowed to text and drive.
+            </p>
+            <div class="form-check my-2 text-white">
+              <input id="29" type="radio" name="q9" value="A" />
+              <label for="29" class="form-check-label">a) True</label>
+            </div>
+            <div class="form-check my-2 text-white">
+              <input id="30" type="radio" name="q9" value="B" />
+              <label for="30" class="form-check-label">b) False</label>
+            </div>
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                10. If you're traveling at 55 mph it takes around _________ to react and come to a complete stop.
+              </p>
+              <div class="form-check my-2 text-white">
+                <input id="31" type="radio" name="q10" value="A" />
+                <label for="31" class="form-check-label">a) 40 feet</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="32" type="radio" name="q10" value="B" />
+                <label for="32" class="form-check-label">b) 400 feet</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="33" type="radio" name="q10" value="C" />
+                <label for="33" class="form-check-label">c) 500 feet</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="34" type="radio" name="q10" value="D" />
+                <label for="34" class="form-check-label">d) 50 feet</label>
+              </div>
+            </div>
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                11. Which of these signs doesn't exist?
+              </p>
+              <div class="form-check my-2 text-white">
+                <input id="35" type="radio" name="q11" value="A" />
+                <label for="35" class="form-check-label">a) Winding Road</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="36" type="radio" name="q11" value="B" />
+                <label for="36" class="form-check-label">b) Stop Ahead</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="37" type="radio" name="q11" value="C" />
+                <label for="37" class="form-check-label">c) Pedestrian crossing</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="38" type="radio" name="q11" value="D" />
+                <label for="38" class="form-check-label">d) None of the above</label>
+              </div>
+            </div>
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                12. What is the speed limit in a school zone while children are present?
+              </p>
+              <div class="form-check my-2 text-white">
+                <input id="39" type="radio" name="q12" value="A" />
+                <label for="39" class="form-check-label">a) 25 mph</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="40" type="radio" name="q12" value="B" />
+                <label for="40" class="form-check-label">b) 15 mph</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="41" type="radio" name="q12" value="C" />
+                <label for="41" class="form-check-label">c) 30 mph</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="42" type="radio" name="q12" value="D" />
+                <label for="42" class="form-check-label">d) 10 mph</label>
+              </div>
+            </div>
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                13. Broken White Lines indicate which of the following?
+              </p>
+              <div class="form-check my-2 text-white">
+                <input id="43" type="radio" name="q13" value="A" />
+                <label for="43" class="form-check-label">a) A barrier that should not be crossed</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="44" type="radio" name="q13" value="B" />
+                <label for="44" class="form-check-label">b) Separate lanes with two or more lanes that go the same direction</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="45" type="radio" name="q13" value="C" />
+                <label for="45" class="form-check-label">c) They don't indicate anything</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="46" type="radio" name="q13" value="D" />
+                <label for="46" class="form-check-label">d) There is two-way traffic</label>
+              </div>
+            </div>
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                14. It's against the law for a minor to use a hands-free device when driving.
+              </p>
+              <div class="form-check my-2 text-white">
+                <input id="47" type="radio" name="q14" value="A" />
+                <label for="47" class="form-check-label">a) True</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="48" type="radio" name="q14" value="B" />
+                <label for="48" class="form-check-label">b) False</label>
+              </div>
+            </div>
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                15. Wearing a seatbelt is a suggestion and not mandatory.
+              </p>
+              <div class="form-check my-2 text-white">
+                <input id="49" type="radio" name="q15" value="A" />
+                <label for="49" class="form-check-label">a) True</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="50" type="radio" name="q15" value="B" />
+                <label for="50" class="form-check-label">b) False</label>
+              </div>
+            </div>
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                16. The "walk" or "Walking Person" signal light means that it's ________ for a pedestrian to cross the road.
+              </p>
+              <div class="form-check my-2 text-white">
+                <input id="51" type="radio" name="q16" value="A" />
+                <label for="51" class="form-check-label">a) Not allowed</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="52" type="radio" name="q16" value="B" />
+                <label for="52" class="form-check-label">b) Allowed</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="53" type="radio" name="q16" value="C" />
+                <label for="53" class="form-check-label">c) Bad</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="54" type="radio" name="q16" value="D" />
+                <label for="54" class="form-check-label">d) Good</label>
+              </div>
+            </div>
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                17. A sign with a red circle and a line through it always indicates "No", unless...
+              </p>
+              <div class="form-check my-2 text-white">
+                <input id="55" type="radio" name="q17" value="A" />
+                <label for="55" class="form-check-label">a) The sign is too low</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="56" type="radio" name="q17" value="B" />
+                <label for="56" class="form-check-label">b) The sign doesn't have text on it</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="57" type="radio" name="q17" value="C" />
+                <label for="57" class="form-check-label">c) There is never an exception to it indicating "No"</label>
+              </div>
+              <div class="form-check my-2 text-white">
+                <input id="58" type="radio" name="q17" value="D" />
+                <label for="58" class="form-check-label">d) None of the above</label>
+              </div>
+            </div>
+              <div class="my-5">
+                <p class="lead font-weight-normal">
+                  18. California's "Basic Speed Law" means that...
+                </p>
+                <div class="form-check my-2 text-white">
+                  <input id="59" type="radio" name="q18" value="A" />
+                  <label for="59" class="form-check-label">a) You always have to go under the speed limit</label>
+                </div>
+                <div class="form-check my-2 text-white">
+                  <input id="60" type="radio" name="q18" value="B" />
+                  <label for="60" class="form-check-label">b) You are allowed to go over the speed limit if your in a sports car</label>
+                </div>
+                <div class="form-check my-2 text-white">
+                  <input id="61" type="radio" name="q18" value="C" />
+                  <label for="61" class="form-check-label">c) You can never drive faster than the speed is safe for the current conditions</label>
+                </div>
+                <div class="form-check my-2 text-white">
+                  <input id="62" type="radio" name="q18" value="D" />
+                  <label for="62" class="form-check-label">d) All of the above</label>
+                </div>
+              </div>
+                <div class="my-5">
+                  <p class="lead font-weight-normal">
+                    19. Red flashing lights on a school bus indicate that...
+                  </p>
+                  <div class="form-check my-2 text-white">
+                    <input id="63" type="radio" name="q19" value="A" />
+                    <label for="63" class="form-check-label">a) You must stop, then proceed</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="64" type="radio" name="q19" value="B" />
+                    <label for="64" class="form-check-label">b) There is no passing allowed</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="65" type="radio" name="q19" value="C" />
+                    <label for="65" class="form-check-label">c) You can do whatever you want</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="66" type="radio" name="q19" value="D" />
+                    <label for="66" class="form-check-label">d) None of the above</label>
+                  </div>
+                </div>
+                <div class="my-5">
+                  <p class="lead font-weight-normal">
+                    20. When parking uphill you should turn your wheel which way?
+                  </p>
+                  <div class="form-check my-2 text-white">
+                    <input id="67" type="radio" name="q20" value="A" />
+                    <label for="67" class="form-check-label">a) To the left</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="68" type="radio" name="q20" value="B" />
+                    <label for="68" class="form-check-label">b) To the right</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="69" type="radio" name="q20" value="C" />
+                    <label for="69" class="form-check-label">c) There is no right way</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="70" type="radio" name="q20" value="D" />
+                    <label for="70" class="form-check-label">d) Keep the wheel straight</label>
+                  </div>
+                </div>
+                <div class="my-5">
+                  <p class="lead font-weight-normal">
+                    21. When parking downhill you should turn your wheel which way?
+                  </p>
+                  <div class="form-check my-2 text-white">
+                    <input id="71" type="radio" name="q21" value="A" />
+                    <label for="71" class="form-check-label">a) To the left</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="72" type="radio" name="q21" value="B" />
+                    <label for="72" class="form-check-label">b) To the right</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="73" type="radio" name="q21" value="C" />
+                    <label for="73" class="form-check-label">c) There is no right way</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="74" type="radio" name="q21" value="D" />
+                    <label for="74" class="form-check-label">d) Keep the wheel straight</label>
+                  </div>
+                </div>
+                <div class="my-5">
+                  <p class="lead font-weight-normal">
+                    22. A curb that's painted White indicates what?
+                  </p>
+                  <div class="form-check my-2 text-white">
+                    <input id="75" type="radio" name="q22" value="A" />
+                    <label for="75" class="form-check-label">a) You're only allowed to park there if you're disabled</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="76" type="radio" name="q22" value="B" />
+                    <label for="76" class="form-check-label">b) It's a no stopping zone and you can't park there</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="77" type="radio" name="q22" value="C" />
+                    <label for="77" class="form-check-label">c) You can only stop long enough to pick up and drop off passengers or mail</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="78" type="radio" name="q22" value="D" />
+                    <label for="78" class="form-check-label">d) You can only park there for 3 hours</label>
+                  </div>
+                </div>
+                <div class="my-5">
+                  <p class="lead font-weight-normal">
+                    23. A curb that's painted Red indicates what?
+                  </p>
+                  <div class="form-check my-2 text-white">
+                    <input id="79" type="radio" name="q23" value="A" />
+                    <label for="79" class="form-check-label">a) You're only allowed to park there if you're disabled</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="80" type="radio" name="q23" value="B" />
+                    <label for="80" class="form-check-label">b) It's a no stopping zone and you can't park there</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="81" type="radio" name="q23" value="C" />
+                    <label for="81" class="form-check-label">c) You can only stop long enough to pick up and drop off passengers or
+                      mail</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="82" type="radio" name="q23" value="D" />
+                    <label for="82" class="form-check-label">d) You can only park there for 3 hours</label>
+                  </div>
+                </div>
+                <div class="my-5">
+                  <p class="lead font-weight-normal">
+                    24. A curb that's painted Blue indicates what?
+                  </p>
+                  <div class="form-check my-2 text-white">
+                    <input id="83" type="radio" name="q24" value="A" />
+                    <label for="83" class="form-check-label">a) You're only allowed to park there if you're disabled</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="84" type="radio" name="q24" value="B" />
+                    <label for="84" class="form-check-label">b) It's a no stopping zone and you can't park there</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="85" type="radio" name="q24" value="C" />
+                    <label for="85" class="form-check-label">c) You can only stop long enough to pick up and drop off passengers or
+                      mail</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="86" type="radio" name="q24" value="D" />
+                    <label for="86" class="form-check-label">d) You can only park there for 3 hours</label>
+                  </div>
+                </div>
+                <div class="my-5">
+                  <p class="lead font-weight-normal">
+                    25. It's illegal to park within _________ of a fire hydrant or fire station driveway.
+                  </p>
+                  <div class="form-check my-2 text-white">
+                    <input id="87" type="radio" name="q25" value="A" />
+                    <label for="87" class="form-check-label">a) 25 feet</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="88" type="radio" name="q25" value="B" />
+                    <label for="88" class="form-check-label">b) 50 feet</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="89" type="radio" name="q25" value="C" />
+                    <label for="89" class="form-check-label">c) 10 feet</label>
+                  </div>
+                  <div class="form-check my-2 text-white">
+                    <input id="90" type="radio" name="q25" value="D" />
+                    <label for="90" class="form-check-label">d) 15 feet</label>
+                  </div>
+                </div>
+                
+            <div class="justify-content-center">
+              <div class="text-center">
+                <input type="submit" class="btn btn-light col-lg-6 col-md-12 my-2 py-3"/>
+              </div>
+            </div>
+        </form>
+      </div>
+    </div>
+  </body>
+
+  <footer class="sticky-bottom bg-dark text-light text-center py-5">
+    <p>&copy; 2020 All Rights Reserved</p>
+  </footer>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"
+  ></script>
+  <script src="../script/test.js"></script>
+</html>
